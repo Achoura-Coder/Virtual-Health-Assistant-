@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login - Virtual Health Assistant</title>
+    <link rel="stylesheet" href="D:\PROGRAMMATION\MY_PROJECT\VIRTUAL ASSISTANT\static\cssstyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="login-form" class="user-form" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit" class="btn">Login</button>
+        </form>
+        <p>Don't have an account? <a href="/register">Register</a></p>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

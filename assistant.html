@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>https://www.jetbrains.com/pycharm/features/editions_comparison_matrix.html
+    <title>Virtual Health Assistant</title>
+    <link rel="stylesheet" href="D:\PROGRAMMATION\MY_PROJECT\VIRTUAL ASSISTANT\static\cssstyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Virtual Health Assistant</h1>
+        <div class="conversation">
+            <div id="chatbox" class="chatbox"></div>
+            <form id="user-form" class="user-form">
+                <input type="text" id="user-input" placeholder="Enter your query...">
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
